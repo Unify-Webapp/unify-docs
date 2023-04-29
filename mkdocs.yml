@@ -3,7 +3,7 @@ site_url: https://unify-webapp.github.io/unify-docs/
 theme:
   name: material
 nav:
-  - Getting Started: index/
+  - Getting Started: /
   - Tech stack: techstack/
   - Adding To The Docs: addingtodocs/
   
