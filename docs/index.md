@@ -9,8 +9,16 @@ Please feel free to contribute to this documentation so we can ensure our projec
 
 ## Setting Up Development Environment
 
+### Requirements
 Most of our developers use and recommend [VS Code](https://code.visualstudio.com/) as our code editor but you may use whatever software you choose, however note that VS Code provides very useful extensions which may or may not exist for other editors.
 
+Other tools tools required:
+- Nodejs version **16.x** (A JavaScript compiler written in C++. It let's us run JavaScript outside of a browser, allowing us to create server-side applications in JavaScript.)
+    - If you're on an ubuntu/debian based distro, [this site](https://github.com/nodesource/distributions) should have the instructions you need!
+    - Else go [here](https://nodejs.org/en/download)
+- Yarn (A [package manager](https://www.youtube.com/watch?v=GTC1XhYixHs))
+
+### Cloning the project + running the development environment
 - Clone the repository by running: `git clone https://github.com/Unify-Webapp/Unify-app/`
 - Ask your team for the .env file. Place this file in the directory your just cloned (should be named "unify-app" by default)
 - Install dependencies by running: `yarn` or `yarn install`
