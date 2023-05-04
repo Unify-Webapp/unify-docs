@@ -13,10 +13,13 @@ Please feel free to contribute to this documentation so we can ensure our projec
 Most of our developers use and recommend [VS Code](https://code.visualstudio.com/) as our code editor but you may use whatever software you choose, however note that VS Code provides very useful extensions which may or may not exist for other editors.
 
 Other tools tools required:
-- Nodejs version **16.x** (A JavaScript compiler written in C++. It let's us run JavaScript outside of a browser, allowing us to create server-side applications in JavaScript.)
-    - If you're on an ubuntu/debian based distro, [this site](https://github.com/nodesource/distributions) should have the instructions you need!
-    - Else go [here](https://nodejs.org/en/download)
-- Yarn (A [package manager](https://www.youtube.com/watch?v=GTC1XhYixHs))
+
+  - **Nodejs version 16.x** (A JavaScript compiler written in C++. It let's us run outside of a browser, allowing us to create server-side applications in JavaScript.)
+    - If you're on an ubuntu/debian based distro, [this site](https://github.com/nodesource/distributions) should have the instructions you need! If not, then go [here](https://nodejs.org/en/download) 
+  - **Yarn** (A [package manager](https://www.youtube.com/watch?v=GTC1XhYixHs))
+  - **Firebase-tools** : After installing nodejs, run `npm install -g firebase-tools`. If you see permission issues, run it with `sudo` at the start of the command.
+  - **Java v8 or above** : Download it from [here](https://www.oracle.com/java/technologies/downloads/) (The JDK includes the JRE)
+    - After downloading and installing Java, open terminal and run `java --version` to make sure it is properly installed. If it says "command not found", you may have issues with PATH. You need to set the path. Search up resources specific to your distro. For ubuntu/debian based os, you can check [this](https://ubuntuhandbook.org/index.php/2022/03/install-jdk-18-ubuntu/) out.
 
 ### Cloning the project + running the development environment
 - Clone the repository by running: `git clone https://github.com/Unify-Webapp/Unify-app/`
