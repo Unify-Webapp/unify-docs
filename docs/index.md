@@ -23,7 +23,7 @@ Other tools tools required:
 
 ### Cloning the project + running the development environment
 - Clone the repository by running: `git clone https://github.com/Unify-Webapp/Unify-app/`
-- Ask your team for the .env file. Place this file in the directory your just cloned (should be named "unify-app" by default)
+- Ask your team for the `.env.development` file. Place this file in the directory your just cloned (should be named "unify-app" by default)
 - Install dependencies by running: `yarn` or `yarn install`
 - Run the development environment by running: `yarn dev:emu` (do **NOT** use `yarn dev` unless your really know what you're doing.)
 - Now everytime you make a change to the frontend, it should refresh the page automatically.
