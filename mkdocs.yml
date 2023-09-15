@@ -5,5 +5,6 @@ theme:
 nav:
   - Getting Started: /unify-docs/
   - Tech stack: techstack/
+  - Data Fetching (Context Creaton): datafetching/
   - Adding To The Docs: addingtodocs/
   
