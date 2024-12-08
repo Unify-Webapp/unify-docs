@@ -13,5 +13,6 @@ We're using MkDocs for this documentation. For full documentation visit [mkdocs.
 
     mkdocs.yml    # The configuration file.
     docs/
-        index.md  # The documentation homepage.
+        index.md  # The documentation homepage
         ...       # Other markdown pages, images and other files.
+        images/   # Folder for images
