@@ -6,5 +6,6 @@ nav:
   - Getting Started: /unify-docs/
   - Tech stack: techstack/
   - UML and Architecture: architecture/
+  - Development Practices: dev-practices/
   - Contribute to Docs: addingtodocs/
 
