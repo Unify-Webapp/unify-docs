@@ -14,7 +14,8 @@ Unify is a web app for University clubs to manage events, memberships, and ticke
 - **Node.js v18**: [Install instructions](https://nodejs.org/en/download). (Choose the right version!)
 - **Yarn**: a [Package manager](https://www.youtube.com/watch?v=GTC1XhYixHs) for Node.js. Install it using `npm install -g yarn`
 - **Firebase-tools**: `npm install -g firebase-tools`
-- **Java v8+**: [Install instructions](https://www.oracle.com/java/technologies/downloads/)
+- **Java v8+**: [Install instructions](https://www.oracle.com/java/technologies/downloads/).
+    - I had to install `openjdk-17-jdk` on for Firebase emulator to work fine.
 
 ### Cloning the Project
 
